@@ -1,15 +1,18 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
+#include<unistd.h>
+#include<stdio.h>
 /**
  * main - Entry point
- * Return: Always 0 (Success)
+ * Desciption: prints lower case alphabet in reverse
+ * Return: Alwys 0 (Success)
  */
 int main(void)
 {
-	char low
-		;
-	for (low - 'z'; low <= 'a'; low--)
-		
+	int a;
 
+	for (a = 'z'; a >= 'a'; a--)
+	{
+		putchar(a);
+	}
+	putchar('\n');
+	return (0);
+}
