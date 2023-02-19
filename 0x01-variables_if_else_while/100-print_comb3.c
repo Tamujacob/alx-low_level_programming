@@ -1,31 +1,33 @@
 #include <stdio.h>
-#include<stdlib.h>
-#include <time.h>
-
+#include <unistd.h>
 /**
- * main - prints(" A program that prints all possible different combinations of two digits.")
+ * main - Entry point
+ * Description: prints two digits combination
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int d, p;
-	for (d = 'o'; d <= '9'; d++)
-	{
-	for (p  = d + 1; p <= '9'; p++)
-	{
+	int c, i;
 
-		if(p != d)
+	for (c = '0'; c <= '9'; c++)
+	{
+		for (i = '0'; i <= '9'; i++)
 		{
-			putchar(d);
-			putchar(p);
-			if (d == '8' && p == '9')
-			continue;
-			putchar(',');
-			putchar('');
+			if (c < i)
+			{
+				putchar(c);
+				putchar(i);
+
+				if (c != '8' || (c == '8' && i != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
-	}
 	}
 	putchar('\n');
 	return (0);
+}
 
