@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_square - Prints n aquares according n number of times
+ * print_square - Prints n squares according n number of times
  * @size: The number of squres/number of times
  * return: empty
  */
 
-voiod print_squre(int size)
+void print_square(int size)
 {
 	int x, y;
 
