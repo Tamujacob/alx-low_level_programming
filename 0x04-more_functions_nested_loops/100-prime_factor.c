@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Prints the largest prime factor of the number  012852475143
+ * main - Prints the largest prime factor of the number  612852475143
  * Return: Always 0 (Success)
  */
 
@@ -18,7 +18,7 @@ int main(void)
 			maxf = number / x;
 		}
 	}
-	printf("%d\n", maxf);
+	printf("%ld\n", maxf);
 	return (0);
 }
 
