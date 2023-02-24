@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_square - Prints n squares according n number of times
- * @size: The number of squares/number of times
- * Return: empty
+ * print_square - Prints n aquares according n number of times
+ * @size: The number of squres/number of times
+ * return: empty
  */
 
-void print_square(int size)
+voiod print_squre(int size)
 {
 	int x, y;
 
@@ -16,14 +16,13 @@ void print_square(int size)
 	}
 	else
 	{
-		for (x = 0; x < size; X++)
+		for (x = 0; x < size; x++)
 		{
 			for (y = 0; y < size; y++)
 			{
 				_putchar(35);
 			}
 			_putchar('\n');
-			}
 		}
 	}
 }
