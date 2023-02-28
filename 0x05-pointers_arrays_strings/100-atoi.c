@@ -6,9 +6,7 @@
  */
 
 int _atoi(char *s)
-
 {
-	
 	int i, d, n, len, f, digit;
 	i = 0;
 	d = 0;
@@ -18,7 +16,7 @@ int _atoi(char *s)
 	digit = 0;
 
 	while (s[len] != '\0')
-		|en++;
+		len++;
 
 	while (i < len && f == 0)
 	{
