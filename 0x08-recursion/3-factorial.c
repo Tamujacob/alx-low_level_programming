@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Factorial - Calculate the factoorial of the number
+ * factorial - Calculate the factoorial of the number
  * @n: the number to calculate the factorial
  * Return: integre value
  */
